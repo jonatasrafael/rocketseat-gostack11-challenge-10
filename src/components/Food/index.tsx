@@ -64,7 +64,7 @@ const Food: React.FC<IProps> = ({
             onClick={() => setEditingFood()}
             data-testid={`edit-food-${food.id}`}
           >
-            <FiEdit3 size={20} />
+            <FiEdit3 size={19} />
           </button>
 
           <button
@@ -73,7 +73,7 @@ const Food: React.FC<IProps> = ({
             onClick={() => handleDelete(food.id)}
             data-testid={`remove-food-${food.id}`}
           >
-            <FiTrash size={20} />
+            <FiTrash size={19} />
           </button>
         </div>
 
